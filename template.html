@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html style="font-size: 34.5px;" class="gr__activity_waimai_meituan_com">
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script type="text/javascript">
+	
+        (function () {
+            function o() {
+                document.documentElement.style.fontSize = (document.documentElement.clientWidth &&document.documentElement.clientWidth < 414 ? document.documentElement.clientWidth : 414) / 12 + "px"
+            }
+
+            var e = null;
+            window.addEventListener("resize", function () {
+                clearTimeout(e), e = setTimeout(o, 300)
+            }, !1), o()
+
+            //3秒后检查如果html fontSize为0，手动触发计算fontSize。
+            setTimeout(function(){
+                if(parseInt(document.defaultView.getComputedStyle(document.documentElement).fontSize) == 0){
+                    o();
+                }
+            },3000);
+        })(window);
+        window.alert = null;
+    
+</script>
+</head>
+<body>
+<div class="t-banner">
+  <a class="banner-img" href="https://engine.beerto.cn/index/activity?appKey=3ZQv9h4TQmiS5WyCKMcM5q93FuxF&amp;adslotId=198574&amp;_tk_=requestid%3D971a95cb-6618-44bb-98dd-0fe0fc27382b%26uuid%3D44DE29F35CB75549AEF1894DDB2A15593CF571A6E94841CC8F6333D9077727C2%26userid%3D677599023%26launchid%3D1394729%26slotid%3D10157">                          <img src="https://img.meituan.net/midas/684bd39623997b876e6b16fe351f8bce240084.gif" alt="">                      </a>
+  <div class="ad-flag ad-flag-text">                          <p class="ad-text">广告</p>                        </div>
+</div>
+<style type="text/css">
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, form, button, dl, dt, dd, input, textarea {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 0;
+    margin: 0;
+}
+body {
+	width: 100%;
+    overflow-x: hidden;
+    color: #341e00;
+}
+	.t-banner {
+	max-width: 12rem; /*414/34.5*/
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+	}
+	.t-banner img {
+    display: block;
+    width: 100%;
+}
+</style>
+</body>
+</html>
